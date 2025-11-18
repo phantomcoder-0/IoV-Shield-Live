@@ -1,0 +1,19 @@
+cat > .gitignore << EOL
+# Ignore the virtual environment (Crucial!)
+venv/
+
+# Ignore python cache files
+__pycache__/
+*.pyc
+
+# Ignore large datasets (Optional, but recommended to keep repo light)
+kdd.csv
+
+# Ignore logs and temporary files
+*.log
+live_traffic_log.csv
+
+# Ignore IDE settings
+.vscode/
+.idea/
+EOL
